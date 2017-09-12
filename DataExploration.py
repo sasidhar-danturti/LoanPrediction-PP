@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 
 
 target="Loan_Status"
-data = pd.read_csv("/home/synerzip/Sasidhar/Competitions/Analytics_Vidya/Loan_Prediction_PP/train.csv").drop("Loan_ID",axis=1)
+data = pd.read_csv("Data/train.csv").drop("Loan_ID",axis=1)
 
 y = data[target]
 
